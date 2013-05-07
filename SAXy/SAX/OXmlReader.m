@@ -9,10 +9,8 @@
 #import "OXmlElementMapper.h"
 #import "NSMutableArray+OXStack.h"
 #import "OXUtil.h"
-#if (TARGET_OS_IPHONE)
 #import <objc/runtime.h>
 #import <objc/message.h>
-#endif
 
 @implementation OXmlReader
 {
